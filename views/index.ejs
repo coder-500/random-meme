@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming meme</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="meme-detail">
+                <div class="meme-title">
+                    <p>
+                        <%=title%>
+                    </p>
+                </div>
+                <div class="meme-container">
+                    <img src=<%=url%> alt="meme image" class="meme-img">
+                </div>
+                <div class="credit">
+                    <p>Author: <%=author%>
+                    </p>
+                    <p><a href=<%=postLink%>>Original Post</a></p>
+
+                </div>
+            </div>
+            <button type="button" class="meme-btn" onclick="location.reload()"><span>New Meme</span></button>
+
+
+        </div>
+    </main>
+</body>
+
+</html>
